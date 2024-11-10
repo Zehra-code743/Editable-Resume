@@ -1,0 +1,82 @@
+
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f7f9fc;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #007bff;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 12px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resumeOutput {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f1f5fb;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    font-size: 1.1em;
+    min-height: 150px; 
+}
